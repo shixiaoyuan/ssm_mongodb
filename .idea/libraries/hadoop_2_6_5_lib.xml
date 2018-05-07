@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="hadoop-2.6.5-lib">
+    <CLASSES>
+      <root url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/common" />
+      <root url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/hdfs" />
+      <root url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/mapreduce" />
+      <root url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/yarn" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/common" recursive="false" />
+    <jarDirectory url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/hdfs" recursive="false" />
+    <jarDirectory url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/mapreduce" recursive="false" />
+    <jarDirectory url="file://D:/apache/hadoop/hadoop-2.6.5(配置完的)/share/hadoop/yarn" recursive="false" />
+  </library>
+</component>

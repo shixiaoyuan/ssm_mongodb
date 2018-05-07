@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.html</title>
+    <style>
+        #loading {
+            width:100%;
+            height:100%;
+            position:fixed;
+            z-index:999;
+            background-color:white;
+        }
+        #loading_all div
+        {
+            position:absolute;
+            width:60px;
+            height:60px;
+            top:50%;
+            margin-top:-60px;
+            left:50%;
+            margin-left:-30px;
+        }
+    </style>
+    <script>
+        $(window).load(function(){
+            //适当延迟隐藏，提高loading效果
+            //$('#loading_all').delay(1000).hide(0);
+            $('#loading_bottom').hide(0);
+        });
+    </script>
+</head>
+<body>
+    <div id="loading">
+        <img src="show/assets/img/sidebar-1.jpg"/>
+    </div>
+    1.html111
+</body>
+<script type="javascript" src="show/js/jquery-3.1.1.min.js"></script>
+</html>
